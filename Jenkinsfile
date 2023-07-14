@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "Welcome to Jenkins Enviroment"
-                sh 'echo using shell within Jenkinsfile'
-                sh 'echo new update2'
+                echo "Welcome to Pyton code "
+                sh 'python --version'
+                sh 'python pipeline.py'
             }
         }
     }
